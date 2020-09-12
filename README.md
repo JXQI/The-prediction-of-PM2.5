@@ -14,4 +14,10 @@
     2.数据如何预处理?
         RAINFALL这一选项如果下雨为1,否则为NR,这里将NR替换为0
     3.数据如何加载?model怎么选择?损失函数如何计算?
-     数据通过列表，model选择最简单的线性模型，损失函数选择平方差   
+     数据通过列表，model选择最简单的线性模型，损失函数选择平方差  
+实验结果：
+    loss曲线：见loss.png，可以看到模型是收敛的
+    loss:The loss of validation is 0.691848(在验证集上是这个值，感觉有问题，后边接触到再去改正)
+        
+参考资料：
+https://www.cnblogs.com/HL-space/p/10676637.html 
